@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Carosello Video</title>
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+    }
+
+    .carousel-container {
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 20px;
+    }
+
+    .video-item {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    video {
+      width: 180px;
+      height: 320px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="carousel-container">
+    <div class="video-item"><video controls src="portfolio/isleofman.mp4"></video></div>
+    <div class="video-item"><video controls src="portfolio/mostdangeroussport.mp4"></video></div>
+    <div class="video-item"><video controls src="portfolio/illegaldrives109.mp4"></video></div>
+    <div class="video-item"><video controls src="portfolio/saferallycar.mp4"></video></div>
+    <div class="video-item"><video controls src="portfolio/theworldrocky.mp4"></video></div>
+    <div class="video-item"><video controls src="portfolio/walterwhite.mp4"></video></div>
+    <div class="video-item"><video controls src="portfolio/whattheysee.mp4"></video></div>
+    <div class="video-item"><video controls src="portfolio/yesterdayishistory.mp4"></video></div>
+  </div>
+
+</body>
+</html>
